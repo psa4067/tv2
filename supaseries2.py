@@ -19,9 +19,9 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # --- KONFIGURASI RENTANG ---
-TAHUN_MULAI = 2024
+TAHUN_MULAI = 2023
 TAHUN_SELESAI = 2023
-HALAMAN_MULAI = 1
+HALAMAN_MULAI = 5
 
 @browser(
     headless=True,
