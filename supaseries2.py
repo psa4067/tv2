@@ -21,7 +21,7 @@ supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 # --- KONFIGURASI RENTANG ---
 TAHUN_MULAI = 2023
 TAHUN_SELESAI = 2023
-HALAMAN_MULAI = 5
+HALAMAN_MULAI = 18
 
 @browser(
     headless=True,
